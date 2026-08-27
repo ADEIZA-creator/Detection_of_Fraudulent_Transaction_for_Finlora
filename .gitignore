@@ -153,6 +153,8 @@ activemq-data/
 
 # Environments
 .env
+finlora_env/
+
 .envrc
 .venv
 env/
@@ -220,3 +222,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# FinLora project-specific ignores
+
+# Virtual environment
+.venv/
+
+# Raw/private datasets
+Dataset/raw/
+
+# Intermediate datasets
+Dataset/interim/
+
+# Local processed datasets
+Dataset/processed/
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Environment variables / secrets
+.env
+.env.*
+
+# MLflow local tracking
+mlruns/
+
+# OS files
+.DS_Store
+Thumbs.db

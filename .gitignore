@@ -231,6 +231,10 @@ __marimo__/
 # Raw/private datasets
 Dataset/raw/
 
+# Ignore cleaned datasets
+Dataset/cleaned_data/
+
+
 # Intermediate datasets
 Dataset/interim/
 
